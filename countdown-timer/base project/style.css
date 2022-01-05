@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://d346xxcyottdqx.cloudfront.net/wp-content/uploads/2019/12/josh-hild-_TuI8tZHlk4-unsplash-1-scaled-e1575979134322.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 1;
+    margin-top: 1rem;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
